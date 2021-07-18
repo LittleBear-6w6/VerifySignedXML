@@ -16,9 +16,9 @@ using System.Security.Cryptography.Xml;
 
 namespace WinFormsApp1
 {
-	public partial class XML電子署名検証ツール : Form
+	public partial class VerifyXMLtool : Form
 	{
-		public XML電子署名検証ツール()
+		public VerifyXMLtool()
 		{
 			InitializeComponent();
 		}

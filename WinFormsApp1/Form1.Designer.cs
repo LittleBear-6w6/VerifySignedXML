@@ -1,7 +1,7 @@
 ﻿
 namespace WinFormsApp1
 {
-	partial class XML電子署名検証ツール
+	partial class VerifyXMLtool
 	{
 		/// <summary>
 		///  Required designer variable.
@@ -62,7 +62,7 @@ namespace WinFormsApp1
 			this.verfyXML.UseVisualStyleBackColor = true;
 			this.verfyXML.Click += new System.EventHandler(this.verfyXML_Click);
 			// 
-			// XML電子署名検証ツール
+			// VerifyXMLtool
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -70,7 +70,7 @@ namespace WinFormsApp1
 			this.Controls.Add(this.verfyXML);
 			this.Controls.Add(this.FileName);
 			this.Controls.Add(this.openFileButton);
-			this.Name = "XML電子署名検証ツール";
+			this.Name = "VerifyXMLtool";
 			this.Text = "XML電子署名検証ツール";
 			this.ResumeLayout(false);
 			this.PerformLayout();
