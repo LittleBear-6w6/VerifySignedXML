@@ -25,8 +25,9 @@ namespace WinFormsApp1
 
 		private void openFileButton_Click (object sender, EventArgs e)
 		{
+			string docPath = System.Environment.GetFolderPath(Environment.SpecialFolder.Personal);
 			OpenFileDialog ofd = new OpenFileDialog();
-			ofd.InitialDirectory = @"C:\";
+			ofd.InitialDirectory = docPath;
 			ofd.Title = "開くファイルを選択してください";
 			ofd.RestoreDirectory = true;
 			ofd.CheckFileExists = true;
