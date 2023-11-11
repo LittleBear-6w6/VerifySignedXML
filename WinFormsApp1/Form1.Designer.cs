@@ -32,6 +32,7 @@ namespace WinFormsApp1
 			this.openFileButton = new System.Windows.Forms.Button();
 			this.FileName = new System.Windows.Forms.TextBox();
 			this.verfyXML = new System.Windows.Forms.Button();
+			this.closeApp = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// openFileButton
@@ -50,23 +51,34 @@ namespace WinFormsApp1
 			this.FileName.Location = new System.Drawing.Point(41, 83);
 			this.FileName.Name = "FileName";
 			this.FileName.Size = new System.Drawing.Size(406, 23);
-			this.FileName.TabIndex = 1;
+			this.FileName.TabIndex = 3;
 			// 
 			// verfyXML
 			// 
 			this.verfyXML.Location = new System.Drawing.Point(468, 201);
 			this.verfyXML.Name = "verfyXML";
 			this.verfyXML.Size = new System.Drawing.Size(289, 99);
-			this.verfyXML.TabIndex = 2;
+			this.verfyXML.TabIndex = 1;
 			this.verfyXML.Text = "検証";
 			this.verfyXML.UseVisualStyleBackColor = true;
 			this.verfyXML.Click += new System.EventHandler(this.verfyXML_Click);
+			// 
+			// closeApp
+			// 
+			this.closeApp.Location = new System.Drawing.Point(475, 328);
+			this.closeApp.Name = "closeApp";
+			this.closeApp.Size = new System.Drawing.Size(282, 87);
+			this.closeApp.TabIndex = 2;
+			this.closeApp.Text = "終了";
+			this.closeApp.UseVisualStyleBackColor = true;
+			this.closeApp.Click += new System.EventHandler(this.closeApp_Click);
 			// 
 			// VerifyXMLtool
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.closeApp);
 			this.Controls.Add(this.verfyXML);
 			this.Controls.Add(this.FileName);
 			this.Controls.Add(this.openFileButton);
@@ -82,6 +94,7 @@ namespace WinFormsApp1
 		private System.Windows.Forms.Button openFileButton;
 		private System.Windows.Forms.TextBox FileName;
 		private System.Windows.Forms.Button verfyXML;
+		private System.Windows.Forms.Button closeApp;
 	}
 }
 

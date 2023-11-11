@@ -82,5 +82,10 @@ namespace WinFormsApp1
 			signedXml.LoadXml((XmlElement)nodeList[0]);
 			return signedXml.CheckSignature();
 		}
+
+		private void closeApp_Click(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
 	}
 }
