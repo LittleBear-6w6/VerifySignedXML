@@ -1,3 +1,4 @@
+![GitHub release (with filter)](https://img.shields.io/github/v/release/LittleBear-6w6/VerifySignedXML?logo=csharp&logoColor=%23512BD4)
 ![GitHub](https://img.shields.io/github/license/LittleBear-6w6/VerifySignedXML)
 
 # VerifySignedXML
