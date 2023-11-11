@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/LittleBear-6w6/VerifySignedXML)
+
 # VerifySignedXML
 
 Verifying Signed XML
